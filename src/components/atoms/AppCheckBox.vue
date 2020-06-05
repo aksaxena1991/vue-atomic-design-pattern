@@ -19,7 +19,7 @@ export default {
   },
   mounted() {
     
-    // console.log('anubhav saxena',this);
+    
   }
 }
 </script>

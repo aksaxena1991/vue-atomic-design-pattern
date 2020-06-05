@@ -1,12 +1,12 @@
 <template>
   <div class="search-form">
     <AppInput :type="inputType" :placeholder="inputPlaceholder" />
-    <AppButton label="Search" />
+    <!-- <AppButton label="Search" /> -->
   </div>
 </template>
 
 <script>
-import AppButton from '../atoms/AppButton'
+// import AppButton from '../atoms/AppButton'
 import AppInput from '../atoms/AppInput'
 
 export default {
@@ -18,7 +18,7 @@ export default {
     }
   },
   components: {
-    AppButton,
+    // AppButton,
     AppInput
   }
 }

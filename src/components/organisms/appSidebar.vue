@@ -11,8 +11,8 @@
 </template>
 
 <script>
-import AppFilter from '../molecules/appFilter';
-import AppTitle from '../atoms/appTitle';
+import AppFilter from '../molecules/AppFilter';
+import AppTitle from '../atoms/AppTitle';
 export default {
   name: 'AppSidebar',
   data () {

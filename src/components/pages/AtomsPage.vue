@@ -9,7 +9,7 @@
 
 <script>
 // import appGender from '../molecules/appGender';
-import AppSidebar from '../organisms/appSidebar';
+import AppSidebar from '../organisms/AppSidebar';
 export default {
   name: 'AtomsPage',
   data() {

@@ -11,8 +11,8 @@
 </template>
 
 <script>
-import AppCheckbox from '../atoms/appCheckbox';
-import AppTitle from '../atoms/appTitle';
+import AppCheckbox from '../atoms/AppCheckbox';
+import AppTitle from '../atoms/AppTitle';
 export default {
   name: 'AppFilter',
   data: ()=> 
