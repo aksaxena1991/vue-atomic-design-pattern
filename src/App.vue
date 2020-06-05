@@ -4,18 +4,22 @@
     <div class="content">
       <router-view class="view" />
     </div>
-    <AppFooter />
+    <!-- <AppFooter /> -->
   </div>
 </template>
 
 <script>
-import AppFooter from './components/organisms/AppFooter'
+// import AppFooter from './components/organisms/AppFooter'
 import NavBar from './components/organisms/NavBar'
+import Vue from 'vue';
+import VueMaterial from "vue-material";
+import 'vue-material/dist/vue-material.css';
+Vue.use(VueMaterial);
 
 export default {
   name: 'app',
   components: {
-    AppFooter,
+    // AppFooter,
     NavBar
   }
 }

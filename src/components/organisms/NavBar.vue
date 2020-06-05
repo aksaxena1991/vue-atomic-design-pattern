@@ -1,7 +1,7 @@
 <template>
   <div class="nav-bar">
     <div class="nav-bar-cell left">
-      <AppLogo />
+      <!-- <AppLogo /> -->
     </div>
     <div class="nav-bar-cell center">
       <HorizontalLinkList
@@ -20,7 +20,7 @@
 
 <script>
 import AppLink from '../atoms/AppLink'
-import AppLogo from '../atoms/AppLogo'
+// import AppLogo from '../atoms/AppLogo'
 import HorizontalLinkList from '../molecules/HorizontalLinkList'
 
 export default {
@@ -28,28 +28,28 @@ export default {
   data () {
     return {
       links: [
+        // {
+        //   path: '/',
+        //   label: 'Index'
+        // },
         {
           path: '/',
-          label: 'Index'
-        },
-        {
-          path: '/atoms',
           label: 'Atoms'
         },
-        {
-          path: '/molecules',
-          label: 'Molecules'
-        },
-        {
-          path: '/organisms',
-          label: 'Organisms'
-        }
+        // {
+        //   path: '/molecules',
+        //   label: 'Molecules'
+        // },
+        // {
+        //   path: '/organisms',
+        //   label: 'Organisms'
+        // }
       ]
     }
   },
   components: {
     AppLink,
-    AppLogo,
+    // AppLogo,
     HorizontalLinkList
   }
 }
