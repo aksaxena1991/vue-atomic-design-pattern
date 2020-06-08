@@ -4,12 +4,16 @@
     
   <div>
     <AppSidebar :data="{filterObject}"></AppSidebar>
+    <AppTopbar/>
+    <AppContent/>
+
   </div>
 </template>
 
 <script>
-// import appGender from '../molecules/appGender';
+import AppTopbar from '../organisms/AppTopbar';
 import AppSidebar from '../organisms/AppSidebar';
+import AppContent from '../organisms/AppContent';
 export default {
   name: 'AtomsPage',
   data() {
@@ -63,8 +67,9 @@ export default {
     }
   },
   components: {
-    
-    AppSidebar
+    AppTopbar,
+    AppSidebar,
+    AppContent
   },
   mounted: () => {
     

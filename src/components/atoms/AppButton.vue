@@ -1,21 +1,21 @@
 <template>
-  <p>
-    {{ content }}
-  </p>
+  <button :type="{type}">{{label}}
+  </button>
 </template>
 
 <script>
 export default {
-  name: 'AppParagraph',
+  name: 'AppButton',
   data () {
     return {}
   },
   props: {
-    content: String,
-    
+    label: String,
+    type:String
   }
 }
 </script>
 
 <style scoped>
+
 </style>

@@ -1,6 +1,6 @@
 <template>
   <div id="app" class="container">
-    <NavBar />
+    <!-- <NavBar /> -->
     <div class="content">
       <router-view class="view" />
     </div>
@@ -42,7 +42,7 @@ export default {
   display: flex;
 }
 .view {
-  width: 70%;
-  margin: 0 auto 0 auto;
+  width: 90%;
+  margin: 20px 0px 0px 20px;
 }
 </style>
